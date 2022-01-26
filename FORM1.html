@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  </head>
+  <body>
+      
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <div class="p-3 mb-2 bg-primary display-6 text-white">Bootstrap 5 - Formulario</div>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" id="apellido" required>  
+                        </div>
+                        <div class="col-md-4">
+                            <label for="ciudad" class="form-label">Ciudad</label>
+                            <select class="form-select" id="ciudad" required>
+                                <option selected disabled value="">Seleccione...</option>
+                                <option>Sevilla</option><option>Huelva</option><option>Cádiz</option><option>Granada</option>
+                                <option>Almería</option><option>Córdoba</option><option>Málaga</option>
+                            </select> 
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-warning fw-bold float-end" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
